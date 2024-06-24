@@ -1,16 +1,32 @@
-## Hi there 👋
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=terrorist&label=Profile%20views&color=f5c2ec&style=flat" alt="terrorist" /> </p>
 
-<!--
-**terrorist/terrorist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```csharp
+using System;
 
-Here are some ideas to get you started:
+class Info
+{
+    public string Name { get; set; }
+    public string Role { get; set; }
+    public string[] LanguagesSpoken { get; set; }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public Info()
+    {
+        Name = "Terrorist";
+        Role = "Real life cat girl, wearing a diaper and living in a cage.";
+        LanguagesSpoken = new string[] { "en_US" };
+    }
+
+    public void SayFact()
+    {
+        Console.WriteLine("Yesterday my daddy changed my diaper and got me a teddy to ride, i also got a new pacifier.");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Info me = new Info();
+        me.SayFact();
+    }
+}
