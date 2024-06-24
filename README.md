@@ -18,7 +18,7 @@ class Info
 
     public void SayFact()
     {
-        Console.WriteLine("Yesterday my daddy changed my diaper and got me a teddy to ride, i also got a new pacifier.");
+        Console.WriteLine("Yesterday my daddy changed my diaper and got me a teddy to ride.");
     }
 }
 
